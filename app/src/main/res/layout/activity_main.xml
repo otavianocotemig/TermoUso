@@ -24,6 +24,16 @@
         android:inputType="text"
         android:textSize="20sp"/>
 
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"/>
+
+
     <RadioGroup
         android:id="@+id/Rd_sexo"
         android:layout_width="wrap_content"
